@@ -137,3 +137,4 @@ Task management/
 | `GET` | `/api/categories` | Get user categories | Yes |
 | `POST` | `/api/categories` | Create custom category | Yes |
 | `GET` | `/api/analytics/dashboard` | Fetch dashboard analytics & metrics | Yes |
+
