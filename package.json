@@ -1,0 +1,33 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack centralized task management application with secure auth and dynamic analytics",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "server": "node --watch backend/index.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "task-management",
+    "productivity",
+    "kanban",
+    "fullstack",
+    "express",
+    "react"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

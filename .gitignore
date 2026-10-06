@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production builds
+dist/
+build/
+
+# Local data & temp database files
+backend/data/
+*.json.tmp
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
